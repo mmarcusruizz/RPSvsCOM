@@ -29,6 +29,7 @@ function obtenerJuegoMaquina() {
   return jugadas[JuegoMaquina];
 }
 // // Compara las jugadas del usuario y la máquina para determinar el ganador.
+
 function detGanador(JuegoUsuario, JuegoMaquina) {
   if (JuegoUsuario === JuegoMaquina) {
     return "empate"; // Si las jugadas son iguales, es un empate.
